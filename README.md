@@ -27,13 +27,13 @@ Using the pseudorange measurements obtained from tracking, implement the Weighte
 
  ![image](https://github.com/user-attachments/assets/f0c6c962-5bd5-4f21-af0b-630c2304c16a)
 
-Figure 1 Velocity of the receiver in open skys
+Figure 1 Velocity of the receiver in open skys using EKF without Doppler measurement
 
 
 ![image](https://github.com/user-attachments/assets/8e3228f1-4bd5-473b-b798-438738c91cf3)
 
 
-Figure 2 WLS positioning results in open-sky areas
+Figure 2 WLS positioning results in open-sky areas using EKF without Doppler measurement
 
 
 
@@ -46,12 +46,12 @@ Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measuremen
 
 ![image](https://github.com/user-attachments/assets/4b04c62b-3f26-4726-82bc-c4ee6130b8de)
 
-Figure 3 Velocity of the receiver in open skys
+Figure 3 Velocity of the receiver in open skys using EKF with pseudorange and Doppler measurements 
 
 
 ![image](https://github.com/user-attachments/assets/7a041f05-7bd3-43b1-8e8e-b7190b432352)
 
-Figure 4 WLS positioning results in open-sky areas
+Figure 4 Positioning results in open-sky areas with pseudorange and Doppler measurements 
 
 
 
