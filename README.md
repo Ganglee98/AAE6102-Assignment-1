@@ -5,7 +5,7 @@ Process the IF data using a GNSS SDR and generate initial acquisition outputs. T
 
 ![image](https://github.com/user-attachments/assets/c15b8fd7-aea4-4ca4-adc3-f647a64ab180)
 
-![image](https://github.com/user-attachments/assets/baa124b2-1d29-473b-aa97-99d1c65c7c17)
+
 
 
 
@@ -13,7 +13,7 @@ Process the IF data using a GNSS SDR and generate initial acquisition outputs. T
 Adapt the tracking loop (DLL) to produce correlation plots and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. (Multiple correlators must be implemented for plotting the correlation function)
 
 Urban interference significantly impacts GNSS signal tracking by distorting correlation peaks. Multipath effects, caused by signal reflections off buildings, create secondary peaks, while signal attenuation reduces peak amplitude. These distortions degrade tracking accuracy, leading to position errors. Implementing multiple correlators helps visualize these effects, enabling better analysis and mitigation of urban interference on tracking performance.
-
+![image](https://github.com/user-attachments/assets/baa124b2-1d29-473b-aa97-99d1c65c7c17)
 
 ![image](https://github.com/user-attachments/assets/1eff82c9-84ce-4892-94b4-38f87c208cec)
 
