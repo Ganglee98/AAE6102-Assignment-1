@@ -1,4 +1,4 @@
-# AAE6102-Assignment-1
+# AAE6102-Assignment-1-LI YUAN
 
 Task 1–Acquisition
 Process the IF data using a GNSS SDR and generate initial acquisition outputs. The following is the generated initial acquisition outputs collected in open-sky area.
