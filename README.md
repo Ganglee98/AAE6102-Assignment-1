@@ -47,6 +47,8 @@ Figure 2 WLS positioning results in open-sky areas using WLS
 
 
 
+I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_prev,Q) to complement the EKF-based positioning
+
 ![image](https://github.com/user-attachments/assets/ded795b4-35cb-4183-9dbd-e06e691daf63)
 
 
