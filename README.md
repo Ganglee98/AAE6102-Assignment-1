@@ -36,6 +36,7 @@ Using the pseudorange measurements obtained from tracking, implement the Weighte
 
 WLS algorithm estimates user position and velocity using pseudorange measurements. Multipath effects introduce errors in pseudoranges, degrading WLS accuracy. Comparing WLS results to ground truth reveals position and velocity deviations, especially in urban environments. Multipath distorts signals, causing outliers and increased uncertainty in the WLS solution.
 
+I add the         [xyzdt,navSolutions.el(activeChnList, currMeasNr), ... navSolutions.az(activeChnList, currMeasNr), ...  navSolutions.DOP(:, currMeasNr)] =...   leastSquarePos(satPositions, clkCorrRawP, settings);
 
 ![image](https://github.com/user-attachments/assets/113a483f-bacc-41f4-beda-1d6e64157dbe)   
 
@@ -54,6 +55,9 @@ Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measuremen
 
 
 I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_prev,Q) to complement the EKF-based positioning
+[pos, navSolutions.el(activeChnList, currMeasNr), navSolutions.az(activeChnList, currMeasNr), PP] = ekfpos(satPositions,  clkCorrRawP, settings,  pos_init', P, Q);
+ 
+
 
 ![image](https://github.com/user-attachments/assets/ded795b4-35cb-4183-9dbd-e06e691daf63)
 
