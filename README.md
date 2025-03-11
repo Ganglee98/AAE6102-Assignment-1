@@ -60,6 +60,8 @@ Figure 5.1 Velocity of the receiverusing EKF with pseudorange and Doppler measur
 
 ![image](https://github.com/user-attachments/assets/8ee22d15-fdeb-43fa-a9cb-15fae3ff2f2d)
 
+![image](https://github.com/user-attachments/assets/7830a3a6-43d3-468e-972d-8a1b99e1f394)
+
 
 Figure 5.2 Positioning results in open-sky areas (left) and urban canyons (right) with pseudorange and Doppler measurements
 
