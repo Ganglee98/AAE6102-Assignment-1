@@ -46,12 +46,12 @@ Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measuremen
 
 ![image](https://github.com/user-attachments/assets/4b04c62b-3f26-4726-82bc-c4ee6130b8de)
 
-Figure 3 Velocity of the receiver in open skys using EKF with pseudorange and Doppler measurements 
+Figure 3 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open sky areas
 
 
 ![image](https://github.com/user-attachments/assets/7a041f05-7bd3-43b1-8e8e-b7190b432352)
 
-Figure 4 Positioning results in open-sky areas with pseudorange and Doppler measurements 
+Figure 4 Positioning results in open-sky areas with pseudorange and Doppler measurements in open sky areas
 
 
 
