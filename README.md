@@ -55,12 +55,13 @@ Figure 3 Velocity of the receiverusing EKF with pseudorange measurements in open
 Figure 4 Positioning results in open-sky areas with pseudorange in open sky areas
 
 
-![image](https://github.com/user-attachments/assets/1358cfe2-bd31-4444-8b86-788ba289b393)
+
 
 Figure 5 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open sky areas
 
 
-![image](https://github.com/user-attachments/assets/c914b4d2-60a8-4b1b-86cb-b09f14f738b2)
+![image](https://github.com/user-attachments/assets/9ecd88c5-83c6-4c87-bf17-c59e44b8415f)
 
-Figure 5 Positioning results in open-sky areas with pseudorange and Doppler measurements in open sky areas
+
+Figure 6 Positioning results in open-sky areas with pseudorange and Doppler measurements in open sky areas
 
