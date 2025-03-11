@@ -38,15 +38,19 @@ Figure 2 WLS positioning results in open-sky areas
 
 
 
+
+
 Task 5 – Kalman filter-based positioning
 Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.
 
 
 ![image](https://github.com/user-attachments/assets/4b04c62b-3f26-4726-82bc-c4ee6130b8de)
+
 Figure 3 Velocity of the receiver in open skys
 
 
 ![image](https://github.com/user-attachments/assets/7a041f05-7bd3-43b1-8e8e-b7190b432352)
+
 Figure 4 WLS positioning results in open-sky areas
 
 
