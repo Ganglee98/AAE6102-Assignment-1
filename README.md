@@ -34,16 +34,17 @@ Using the pseudorange measurements obtained from tracking, implement the Weighte
 WLS algorithm estimates user position and velocity using pseudorange measurements. Multipath effects introduce errors in pseudoranges, degrading WLS accuracy. Comparing WLS results to ground truth reveals position and velocity deviations, especially in urban environments. Multipath distorts signals, causing outliers and increased uncertainty in the WLS solution.
 
 
-![image](https://github.com/user-attachments/assets/113a483f-bacc-41f4-beda-1d6e64157dbe)
+![image](https://github.com/user-attachments/assets/113a483f-bacc-41f4-beda-1d6e64157dbe)   
 
 
-Figure 1 Velocity of the receiver in open skys using WLS
+Figure 1 Velocity of the receiver using WLS in open-sky area
 
 
-![image](https://github.com/user-attachments/assets/02d3a57b-538f-4788-882d-b8661df31591)
+![image](https://github.com/user-attachments/assets/02d3a57b-538f-4788-882d-b8661df31591)  ![image](https://github.com/user-attachments/assets/856a655e-7283-4085-84a6-507af6482e82)
 
 
-Figure 2 WLS positioning results in open-sky areas using WLS
+
+Figure 2 WLS positioning results in open-sky areas (left) and urban canyons (right) using WLS
 
 # Task 5 – Kalman filter-based positioning
 Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.
