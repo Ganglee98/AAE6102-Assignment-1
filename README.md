@@ -37,14 +37,14 @@ WLS algorithm estimates user position and velocity using pseudorange measurement
 ![image](https://github.com/user-attachments/assets/113a483f-bacc-41f4-beda-1d6e64157dbe)   
 
 
-Figure 1 Velocity of the receiver using WLS in open-sky area
+Figure 4.1 Velocity of the receiver using WLS in open-sky area
 
 
 ![image](https://github.com/user-attachments/assets/02d3a57b-538f-4788-882d-b8661df31591)  ![image](https://github.com/user-attachments/assets/856a655e-7283-4085-84a6-507af6482e82)
 
 
 
-Figure 2 WLS positioning results in open-sky areas (left) and urban canyons (right) using WLS
+Figure 4.2 WLS positioning results in open-sky areas (left) and urban canyons (right) using WLS
 
 # Task 5 – Kalman filter-based positioning
 Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.
@@ -56,10 +56,10 @@ I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_p
 
 
 
-Figure 5 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open-sky areas
+Figure 5.1 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open-sky areas
 
 ![image](https://github.com/user-attachments/assets/8ee22d15-fdeb-43fa-a9cb-15fae3ff2f2d)
 
 
-Figure 6 Positioning results in open-sky areas (left) and urban canyons (right) with pseudorange and Doppler measurements
+Figure 5.2 Positioning results in open-sky areas (left) and urban canyons (right) with pseudorange and Doppler measurements
 
