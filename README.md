@@ -10,12 +10,15 @@ Process the IF data using a GNSS SDR and generate initial acquisition outputs. T
 Task 2 – Tracking
 Adapt the tracking loop (DLL) to produce correlation plots and analyze the tracking performance. Discuss the impact of urban interference on the correlation peaks. (Multiple correlators must be implemented for plotting the correlation function)
 
+![image](https://github.com/user-attachments/assets/a0804ba9-e662-4277-9ef8-7f6c49c72b4c)
 
 
 
 
 Task 3 – Navigation data decoding
 Decode the navigation message and extract key parameters, such as ephemeris data, for at least one satellite.
+
+![image](https://github.com/user-attachments/assets/548ca550-46bd-4bd4-8123-79869bfc2a58)
 
 
 
