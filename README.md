@@ -18,7 +18,8 @@ Adapt the tracking loop (DLL) to produce correlation plots and analyze the track
 Task 3 – Navigation data decoding
 Decode the navigation message and extract key parameters, such as ephemeris data, for at least one satellite.
 
-![image](https://github.com/user-attachments/assets/548ca550-46bd-4bd4-8123-79869bfc2a58)
+![image](https://github.com/user-attachments/assets/4327f74b-7a14-4b3b-863b-678edf51abbb)
+
 
 
 
