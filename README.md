@@ -30,12 +30,13 @@ Task 4 – Position and velocity estimation
 Using the pseudorange measurements obtained from tracking, implement the Weighted Least Squares (WLS) algorithm to compute user’s position and velocity. Plot the user position and velocity, compare it to the provided ground truth values, and comment on the impact of multipath effects on the WLS solution.
 
 
- ![image](https://github.com/user-attachments/assets/f0c6c962-5bd5-4f21-af0b-630c2304c16a)
+![image](https://github.com/user-attachments/assets/113a483f-bacc-41f4-beda-1d6e64157dbe)
+
 
 Figure 1 Velocity of the receiver in open skys using WLS
 
 
-![image](https://github.com/user-attachments/assets/8e3228f1-4bd5-473b-b798-438738c91cf3)
+![image](https://github.com/user-attachments/assets/02d3a57b-538f-4788-882d-b8661df31591)
 
 
 Figure 2 WLS positioning results in open-sky areas using WLS
@@ -48,28 +49,28 @@ Figure 2 WLS positioning results in open-sky areas using WLS
 Task 5 – Kalman filter-based positioning
 Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.
 
-![image](https://github.com/user-attachments/assets/8ca830d2-7550-4937-85df-a92ed7b4eeef)
+![image](https://github.com/user-attachments/assets/82a37abe-929e-4f10-a7e6-7ee8f025f08c)
+
 
 
 
 Figure 3 Velocity of the receiverusing EKF with pseudorange measurements in open sky areas
 
 
-![image](https://github.com/user-attachments/assets/7a041f05-7bd3-43b1-8e8e-b7190b432352)
+![image](https://github.com/user-attachments/assets/78f45a03-a019-4757-a0e3-68bc6c74c35b)
+
 
 Figure 4 Positioning results in open-sky areas with pseudorange in open sky areas
 
 
 
-![image](https://github.com/user-attachments/assets/1c017744-117a-4058-90f7-6eb117de5312)
+![image](https://github.com/user-attachments/assets/ded795b4-35cb-4183-9dbd-e06e691daf63)
+
 
 
 Figure 5 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open sky areas
 
-
-![image](https://github.com/user-attachments/assets/b9bcbb26-c40f-4df7-a10a-6db8fa6be676)
-
-
+![image](https://github.com/user-attachments/assets/8ee22d15-fdeb-43fa-a9cb-15fae3ff2f2d)
 
 
 Figure 6 Positioning results in open-sky areas with pseudorange and Doppler measurements in open sky areas
