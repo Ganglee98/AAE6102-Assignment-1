@@ -56,10 +56,10 @@ I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_p
 
 
 
-Figure 5 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open sky areas
+Figure 5 Velocity of the receiverusing EKF with pseudorange and Doppler measurements in open-sky areas
 
 ![image](https://github.com/user-attachments/assets/8ee22d15-fdeb-43fa-a9cb-15fae3ff2f2d)
 
 
-Figure 6 Positioning results in open-sky areas with pseudorange and Doppler measurements in open sky areas
+Figure 6 Positioning results in open-sky areas (left) and urban canyons (right) with pseudorange and Doppler measurements
 
