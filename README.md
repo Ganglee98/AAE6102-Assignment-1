@@ -54,8 +54,35 @@ Figure 4.2 WLS positioning results in open-sky areas (left) and urban canyons (r
 Develop an Extended Kalman Filter (EKF) using pseudorange and Doppler measurements to estimate user position and velocity.
 
 
-I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_prev,Q) to complement the EKF-based positioning
-[pos, navSolutions.el(activeChnList, currMeasNr), navSolutions.az(activeChnList, currMeasNr), PP] = ekfpos(satPositions,  clkCorrRawP, settings,  pos_init', P, Q);
+I add the function [pos,el, az, P] = ekfpos(satpos, obs, settings, pos_init, P_prev,Q) to complement the EKF-based positioning :
+
+if(currMeasNr<3)
+% 首历元初始化
+pos_init = [0;0;0;0]; % 初始位置+钟差
+
+P = diag([5^2 5^2 5^2 1]); % 初始不确定度
+
+Q = diag([1 1 1 0.1]).^2; % 过程噪声
+
+%
+% Calculate receiver position
+
+[xyzdt,navSolutions.el(activeChnList, currMeasNr), ...navSolutions.az(activeChnList, currMeasNr), ...navSolutions.DOP(:, currMeasNr)] =...leastSquarePos(satPositions, clkCorrRawP, settings);
+pos_init=xyzdt;
+
+else
+
+pos_init=pos';
+
+P=PP;
+
+pos_init=xyzdt;
+
+end
+
+% 逐历元调用
+
+[pos, navSolutions.el(activeChnList, currMeasNr), navSolutions.az(activeChnList, currMeasNr), PP] = ekfpos(satPositions, clkCorrRawP, settings, pos_init', P, Q);
  
 
 
